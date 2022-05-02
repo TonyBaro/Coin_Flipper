@@ -9,12 +9,14 @@ function flip(){
         document.querySelector(".flip").innerHTML=
         `<img id=coin onmousedown="flip()" src="./assets/heads.png" alt="heads">
         <p>Heads</p>`
+        console.log("heads")
 
     }
     if (x==1){
         document.querySelector(".flip").innerHTML=
         `<img id=coin onmousedown="flip()" src="./assets/tails.png" alt="tails">
         <p>Tails</p>`
+        console.log("tails")
 
     }
 }
