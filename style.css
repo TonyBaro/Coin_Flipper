@@ -19,7 +19,7 @@
     border-radius: 10px;
 }
 .title{
-    font-size: 75pt;
+    font-size: 350%;
     text-align: center;
 }
 .links ul{
@@ -47,5 +47,6 @@
 }
 #coin{
     width: 500px;
-    height: 500px
+    height: 500px;
+    transition: 5000ms;
 }
